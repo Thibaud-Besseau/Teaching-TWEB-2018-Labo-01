@@ -25,3 +25,5 @@ Keep in mind that the goal for this lab is to get comfortable with HTML, CSS and
 **Hosting**
 
 We recommend using [Zeit now](https://zeit.co/now) to publish your project to the web. Go to the [getting started section](https://zeit.co/now#get-started) to find instructions.
+
+`https://teaching-tweb-2018-labo-01-fnxmdsauso.now.sh/`
