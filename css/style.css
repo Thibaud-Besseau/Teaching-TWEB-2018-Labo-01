@@ -1,0 +1,101 @@
+body {
+    background-color: lightgrey;
+}
+
+.card {
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    transform: translateX(50%) translateY(50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+
+}
+
+#img-verified {
+    width: 18px;
+    margin-left: 5px;
+}
+
+
+.user-infos,
+.user-infos-social{
+    display: flex;
+}
+
+#img-user {
+    width: 80%;
+    border-radius: 15%;
+    padding: 15px 15px 5px 15px;
+}
+
+.img-user {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.user-infos-data {
+    width: calc(300% / 4);
+}
+
+.user-infos-social div {
+    width: 25%;
+    padding-left: 15px;
+
+}
+
+.user-infos-social-data {
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.user-infos-social div p {
+}
+
+.user-infos-data {
+    margin: 15px 0 0 10px;
+}
+
+.user-infos-data p{
+    margin: 0;
+}
+
+.user-infos-social-data-details {
+    padding-left: 10px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+#profile-title {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+#profile-resume {
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+
+#profile-description {
+    font-size: 12px;
+    color: grey;
+}
+
+#refresh-button {
+    border-style:none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: 70%;
+    margin-top: 5px;
+    background-color: #428bca;
+
+}
+
+
+
+

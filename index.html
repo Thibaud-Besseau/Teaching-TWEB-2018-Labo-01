@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TWEB Lab 01</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<script>$(window).on("load", refresh);</script>
+
+<body>
+<div class="row">
+    <div class="card">
+        <div class="user-infos">
+            <div id="img-user-div" class="img-user">
+            </div>
+            <div class="user-infos-data">
+                <p id="profile-title">
+                    <strong id="username"></strong><img src="img/check.png" id="img-verified"/>
+                </p>
+                <p id="userInfos">
+                </p>
+                <p id="profile-description">
+                </p>
+            </div>
+        </div>
+        <div class="user-infos-social">
+            <div>
+                <button id="refresh-button" class="follow-button" onclick="refresh()"><strong>Refresh</strong></button>
+            </div>
+            <div>
+                <p class="user-infos-social-data">
+                    <strong id="gender"></strong>
+                </p>
+                <p class="user-infos-social-data-details">
+                    Gender
+                </p>
+            </div>
+            <div>
+                <p class="user-infos-social-data">
+                    <strong id="age"></strong>
+                </p>
+                <p class="user-infos-social-data-details">
+                    Age
+                </p>
+            </div>
+            <div>
+                <p class="user-infos-social-data">
+                    <strong id="nationality"></strong>
+                </p>
+                <p class="user-infos-social-data-details">
+                    Nationality
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
